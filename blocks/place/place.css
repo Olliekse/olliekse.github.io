@@ -21,19 +21,19 @@
 }
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 1fr 1fr;
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 520px){
   .place {
     display: block;
+    margin: 0;
   }
 }
 @media screen and (max-width: 320px){
   .place {
-    width: 310px;
+    max-width: 320px;
   }
 }
 
